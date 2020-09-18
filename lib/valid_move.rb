@@ -3,8 +3,6 @@
 
 
 def position_taken?(board,position)
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  position = user_input.to_i
   if board[position] == " " || board[position] == "" || board[position] == nil
     false
     else  
