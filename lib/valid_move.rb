@@ -5,11 +5,7 @@
 def position_taken?(board,position)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   position = user_input.to_i
-  if board[position] == " "
-    false
-    elsif board[position] == ""
-    false
-    elsif  board[position] == nil
+  if board[position] == " " || board[position] == "" || board[position] == nil
     false
     else   board[position] == "X" || "O"
     true
